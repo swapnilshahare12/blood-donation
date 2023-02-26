@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood donation form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div id="container">
+            <form action="#" method="post">
+                <div class="header">
+                    <h1>User Record List</h1>
+                </div>
+                <div>
+                    <label for="username">Username</label> <br>
+                    <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                </div>
+                <div>
+                    <label for="Email">Email address</label> <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label for="bloodgroup">Select your blood group</label> <br>
+                    <select name="" id="" required>
+                        <option value="a+">A+</option>
+                        <option value="o+">O+</option>
+                        <option value="b+">B+</option>
+                        <option value="ab+">AB+</option>
+                        <option value="a-">A-</option>
+                        <option value="o-">O-</option>
+                        <option value="b-">B-</option>
+                        <option value="ab-">AB-</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="address">Enter your address</label> <br>
+                    <textarea name="address" id="" cols="50" rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="number">Enter your phone number</label> <br>
+                    <input type="number" name="" id="number" required>
+                </div>
+                <div>
+                    <label for="other-details">Any other details regarding your medical health</label> <br>
+                    <textarea name="details" id="" cols="50" rows="5" ></textarea>
+                </div>
+                <button id="submitBtn" type="button">Submit</button>
+            </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
